@@ -21,7 +21,7 @@ server.use(allowCrossDomain);
 server.use(express.static(__dirname + '/public'));
 server.use(express.static(path.join(__dirname, 'public')));
 
-server.get('*', function (req, res) {
+server.get('', function (req, res) {
 	res.sendFile(__dirname + '/public/index.html');
 });
 

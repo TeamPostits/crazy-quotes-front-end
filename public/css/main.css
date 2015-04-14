@@ -64,6 +64,12 @@ h1 {
 }
 
 .quotes-container{
+	display:block;
+	margin-top: 40px; 
 	font-family: 'Pacifico', cursive;
 	font-size: 30px; 
+}
+
+.quotes{
+	display:none; 
 }
